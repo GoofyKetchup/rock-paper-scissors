@@ -9,15 +9,16 @@ print('''your choices
 print('-='*15)
 j=int(input('what is your choice ?'))
 if 0<=j<=2:
-    for i in range(2):
-        if i = 3:
+    for i in range(1, 4):
+        if i == 3:
             print("3!!!!")
+            break
         print(i)
         sleep(1)
     print('computer: {}'.format(itens[c]))
     print('player: {}'.format(itens[j]))
     print('-='*15)
-    if c==j:
+    if c == j:
         print('draw')
     elif c < j:
         print("You won!")
